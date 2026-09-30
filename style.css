@@ -1,0 +1,85 @@
+body{
+    background-color: #333;
+    width: 75%;
+    margin: 20px;
+    padding: 20px;
+}
+
+nav{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+nav a{
+    text-align: center;
+    text-decoration: dashed;
+    font-family: impact;
+    font-size: 25px;
+    color: chartreuse;
+    margin: 20px;
+}
+nav a:hover{
+    color: cyan;
+}
+
+button:hover{
+    background-color: lime;
+}
+button{
+    font-family: impact;
+    text-align: center;
+    color: goldenrod;
+    background-color:black;
+}
+
+a:link{
+    color: chartreuse;
+    text-decoration: dashed;
+}
+a:hover{
+    color:aqua;
+}
+
+#box1{
+    color: aliceblue;
+    text-decoration: dotted;
+    font-family: courier;
+    font-size: medium;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+#box2{
+    color: aliceblue;
+    font-family: courier;
+    font-size: medium;
+    width: 100%;
+}
+
+h2{
+    color: gold;
+    font-family: verdana;
+    text-decoration: dotted;
+}
+h2:hover{
+    box-shadow: 5px 5px 5px greenyellow;
+}
+
+dt{
+    color: goldenrod;
+    font-family: verdana;
+    text-decoration: dotted;
+}
+
+ul{
+    color:goldenrod;
+    font-family: verdana;
+    text-decoration: dotted;
+}
+li{
+    color: aliceblue;
+    font-family: Courier;
+    text-decoration: dotted;
+}
