@@ -7,18 +7,29 @@ body{
 
 nav{
     background-color: black;
-    text-align: center;
+    overflow: hidden;
     padding: 20px;
     width: 100%;
     margin-bottom: 20px;
+    white-space: nowrap;
 }
 nav a{
     text-align: center;
-    text-decoration: dashed;
+    text-decoration: underline;
     font-family: impact;
     font-size: 25px;
     color: chartreuse;
-    margin: 20px;
+    margin: 55px;
+    display: inline-block;
+    animation: slide 8s linear infinite;
+}
+@keyframes slide{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
 }
 nav a:hover{
     color: cyan;
@@ -81,5 +92,5 @@ ul{
 li{
     color: aliceblue;
     font-family: Courier;
-    text-decoration: dotted;
+    
 }
